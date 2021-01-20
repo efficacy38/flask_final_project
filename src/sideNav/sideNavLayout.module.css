@@ -111,16 +111,17 @@ a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul p {
-    color: #fff;
+    font-weight: 700;
+    color: gray;
     padding: 10px;
 }
 
 #sidebar ul li {
     border-top: gray 3px dashed;
+    border-bottom: none;
 }
 
 #sidebar ul li:first-child {
@@ -136,6 +137,10 @@ a:focus {
 #sidebar ul li a:hover {
     color: white;
     background: gray;
+}
+
+#sidebar ul li a:hover path{
+    fill: white;
 }
 
 #sidebar ul li.active>a,
