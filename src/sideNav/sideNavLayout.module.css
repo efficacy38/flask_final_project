@@ -124,14 +124,22 @@ a:focus {
     border-bottom: none;
 }
 
+#sidebar ul li span{
+    padding: 0 0.25em 0 0.25em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 #sidebar ul li:first-child {
     border-top: none;
 }
 
 #sidebar ul li a {
-    padding: 10px;
+    padding: 1em 10px 1em 10px;
     font-size: 1.1em;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #sidebar ul li a:hover {
@@ -141,6 +149,7 @@ a:focus {
 
 #sidebar ul li a:hover path{
     fill: white;
+    transition: all 0.3s;
 }
 
 #sidebar ul li.active>a,

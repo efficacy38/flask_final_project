@@ -7,6 +7,7 @@ import HeatTransferSection from '../heatTransferSection';
 import ExperienceSection from '../experienceSection';
 import ParchaceCart from '../parchaceCart';
 import Login from '../login';
+import signUp from '../signUp';
 
 const NavBarRouter = () =>{
     return(
@@ -19,6 +20,7 @@ const NavBarRouter = () =>{
                     <Route path="/ExperienceSection" component={ExperienceSection}/>
                     <Route path="/ParchaceCart" component={ParchaceCart}/>
                     <Route path="/Login" component={Login}/>
+                    <Route path="/signUp" component={signUp}/>
                 </Layout>
             </Switch>
         </Router>
